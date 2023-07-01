@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 0px;
+  top: 0px;
+}
+                            /*  Кнопка перехода в расписание  */
+ .button-block {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 16px;
+}
+
+                             /* Kонтент */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+}
+                              /* Заголовок */
+.block.title {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.block.title .h1 {
+  font-family: 'Euclid Circular A'; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 94px;
+  text-align: center;
+  color: #000000;
+}
+
+                            /* Характеристики маршрута */
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-right: 10px;
+
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.properties {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  width: 274px;
+  height: 90px;
+}
+
+.blockS {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 273px;
+  height: 45px;
+}
+
+.textS {
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.imgS {
+  width: 142px;
+  height: 40px;
+  padding-left: 16px;
+}
+
+.img_ikon {
+  width: 24px;
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 8px;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: column;
+  width: 271px;
+  height: 90px;
+  padding-left: 20px;
+}
+
+                                  /* Подробное описание маршрута */
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 565px;
+}
+
+
+.textI {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.buttonZ {
+  margin-top: 14px;
+  padding: 0;
+  width: 144px;
+  height: 48px;
+  background: #FBAC1E;
+  border-radius: 7px;
+  border: none;
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.buttonZ:hover {
+  background-color: #FFCA3C;
+  color: #132C33;
+  }
+  .buttonZ:active {
+  background-color: #E79814;
+  color: #132C33;
+  }
+
+                      /* Карусель */
+
+.block_carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.imgL {
+  width: 50px;
+  height: 50px;
+  padding-top: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+

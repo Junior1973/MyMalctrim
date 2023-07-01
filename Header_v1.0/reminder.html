@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>МАЛЬСТРИМ</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="reminder.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/euclid-circular-a"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/helveticaneuecyr-2"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header_reminder">
+      <div class="container">
+        <div class="header_burger">
+          <div class="burger" >
+            <span></span>
+          </div>
+        </div>
+        <div class="header_block">
+          <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
+          <nav class="nav">
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="schedule.html">Расписание</a></li>
+              <li><a href="reminder.html">Памятка туристу</a></li>
+              <li><a href="about.html">О нас</a></li>
+            </ul>
+          </nav>
+          <div class="menu">
+            <img
+              class="menu_img"
+              src="img/+.png"
+              onclick="menu_img_close()"
+              alt=""
+            />
+            <ul>
+              <li class="menu_link"><a href="index.html">Главная</a></li>
+              <li class="menu_link"><a href="schedule.html">Расписание</a></li>
+              <li class="menu_link">
+                <a href="reminder.html">Памятка туристу</a>
+              </li>
+              <li class="menu_link"><a href="about.html">О нас</a></li>
+            </ul>
+            <button class="menu_btn" type="submit" onclick="show()">
+              Заявка
+            </button>
+            <div class="menu_tel">
+              <img src="img/tube  white.png" alt="telephone" />
+              <p>+7(978) 798-58-72</p>
+            </div>
+            <div class="menu_tel">
+              <img src="img/tube  white.png" alt="telephone" />
+              <p>+7(978) 798-58-72</p>
+            </div>
+            <div class="menu_icon">
+              <img src="img/VK1.png" alt="vk" />
+              <img src="img/TЛ.png" alt="telegram" />
+            </div>
+          </div>
+          <div class="header_icon">
+            <a href=""
+              ><img
+                class="header_icon_telephone"
+                src="img/tube  white.png"
+                alt="telephone"
+            /></a>
+            <a href=""
+              ><img class="header_icon_vk" src="img/VK white.png" alt="vk"
+            /></a>
+            <a href=""
+              ><img
+                class="header_icon_telegram"
+                src="img/Telegramwhite.png"
+                alt="telegram"
+            /></a>
+          </div>
+          <div class="header_link">
+            <a href="#" onclick="show()">В поход !</a>
+          </div>
+        </div>
+
+
+
+          <div class="modal_form_active modal_close">
+            <div class="modal_window_window">
+            <div class="modal_window">
+              <div class="modal_img_1" >
+                <img src="img/модальное окно.png" alt="">
+                <div class="modal_form_p">
+                  <p>Отдыхай правильно</p>
+                </div>
+              </div>
+              <div class="modal_img_2">
+                <img src="img/+.png" onclick="show()"alt="">
+              </div>
+            <div class="modal_form">
+              <form action="">
+                <p class="modal_form_text">Отправьте заявку и мы перезвоним Вам в ближайшее время и поможем подобрать поход</p>
+                <div class="modal_application">
+                  <img src="img/туристМод.png" alt="турист">
+                  <div class="modal_application_label">
+                  <p><label for="">Ваше имя:</label></p>
+                  <input class="modal_application_input" type="text" name="name">
+                </div>
+                </div>
+                <div class="modal_application">
+                  <img src="img/телефон.png" alt="телефон">
+                  <div class="modal_application_label">
+                  <p><label for="">Телефон:</label></p>
+                  <input class="modal_application_input" type="text" name="name">
+                </div>
+                </div>
+                <div class="modal_application_checkbox">
+                <input type="checkbox" class="modal_application_input_checkbox">
+                <p> Я согласен с <span>условиями передачи информации</span></p>
+              </div>
+                <button class="modal_form_btn" type="submit">Отправить</button>
+              </form>
+            </div>
+          </div>
+          </div>
+      </div>
+
+
+
+      </div>
+    </header>
+  </body>
+</html>

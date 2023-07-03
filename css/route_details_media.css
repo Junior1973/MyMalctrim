@@ -1,0 +1,16 @@
+@media screen and (max-width: 1310px) {
+    .button-block, .container, .block.title{
+      width: 100%;
+    }
+    /* .container {
+      width: 100%;
+    } */
+  }
+  @media screen and (min-width: 1310px) {
+    .button-block, .container,.block.title {
+      width: 1291px;
+    }
+    /* .container {
+      width: 1291px;
+    } */
+  }

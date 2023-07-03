@@ -6,6 +6,13 @@ add_action( 'wp_enqueue_scripts', function () {
     wp_enqueue_style( 'fonts', 'https://fonts.googleapis.com/css?family=Underdog' );
     wp_enqueue_style( 'footer', get_template_directory_uri(). '/assets/css/footer.css' );
 	wp_enqueue_style( 'about', get_template_directory_uri(). '/assets/css/about.css' );
+	wp_enqueue_style( 'main', get_template_directory_uri(). '/assets/css/main.css' );
+
+	wp_deregister_script( 'jquery' );
+	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js');
+
+	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), 'null', true );
 
 });
 

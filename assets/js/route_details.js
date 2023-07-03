@@ -1,8 +1,8 @@
 // Карусель
 
-let pictures3 =["./imgRD/Demerdzhi111.png", "./imgRD/Demerdzhi222.png", "./imgRD/Demerdzhi333.png"]
-let pictures2 =["./imgRD/Demerdzhi11.png", "./imgRD/Demerdzhi22.png", "./imgRD/Demerdzhi33.png"]
-let pictures = ["./imgRD/Demerdzhi1.png", "./imgRD/Demerdzhi2.png", "./imgRD/Demerdzhi3.png"];  
+let pictures3 =["./assets/imgRD/Demerdzhi111.png", "./assets/imgRD/Demerdzhi222.png", "./assets/imgRD/Demerdzhi333.png"]
+let pictures2 =["./assets/imgRD/Demerdzhi11.png", "./assets/imgRD/Demerdzhi22.png", "./assets/imgRD/Demerdzhi33.png"]
+let pictures = ["./assets/imgRD/Demerdzhi1.png", "./assets/imgRD/Demerdzhi2.png", "./assets/imgRD/Demerdzhi3.png"];  
 
 
 

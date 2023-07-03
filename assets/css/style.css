@@ -1055,7 +1055,13 @@ svg {
 .footer_div_fone {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
+.footer_div_fone_ {
+  display: flex;
+  align-items: center;
+}
+
 
 .footer_a {
   font-family: Euclid Circular A;
@@ -1069,6 +1075,32 @@ svg {
   text-decoration: none;
 }
 
+.footer_a li  {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style: none;
+}
+.footer_a a {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style: none;
+}
+
+
 .footer_a:hover {
   text-decoration: none;
 }
@@ -1077,6 +1109,7 @@ svg {
 }
 
 .footer_p {
+  margin-top: 20px;
   font-family: Euclid Circular A;
   font-style: normal;
   font-size: 18px;
@@ -1109,11 +1142,14 @@ svg {
   text-align: left;
   color: rgb(255, 202, 60);
   text-decoration: none;
+  margin-top: 20px;
 }
+
+
 
 .footer_h4:hover {
   color: #ffffff;
-}
+  }
 
 .footer_a_fone {
   font-family: "Roboto";
@@ -1135,10 +1171,16 @@ svg {
 }
 
 .img_decor {
+  margin-top: 20px;
   height: 106px;
   width: 273px;
   border-radius: 0px;
 }
+.img_decor img {
+  width: 230px;
+  height: 90px;
+}
+
 
 .footer_h3_Cont {
   margin: 0;
@@ -1169,6 +1211,10 @@ svg {
   border-radius: 10px;
   background-color: white;
 }
+.footer_div_socseti_VK img {
+  padding-top: 9px; padding-left: 5px
+}
+
 .footer_div_socseti_VK:hover {
   background-color: #ffca3c;
 }
@@ -1183,6 +1229,9 @@ svg {
   height: 32px;
   border-radius: 10px;
   background-color: white;
+}
+.footer_div_socseti_Telegram img {
+  padding-top: 9px; padding-left: 5px
 }
 .footer_div_socseti_Telegram:hover {
   background-color: #ffca3c;

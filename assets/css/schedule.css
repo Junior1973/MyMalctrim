@@ -88,6 +88,8 @@ h2{
     padding-top: 15px;
     color: #000000;
     width: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
     display: flex;
     flex-direction: row;
   }
@@ -110,10 +112,10 @@ h2{
     margin-bottom: 4px;
     padding-top: 12px;
     text-align: left;
-    transition: all 200ms;
     -webkit-transition: all 200ms;
     -moz-transition: all 200ms;
     -o-transition: all 200ms;
+    transition: all 200ms;
   }
   .n_list:hover {
     color: #e79814;
@@ -165,10 +167,10 @@ h2{
     height: 150px;
     cursor: pointer;
     border: none;
-    transition: all 200ms;
     -webkit-transition: all 200ms;
     -moz-transition: all 200ms;
     -o-transition: all 200ms;
+    transition: all 200ms;
   }
 
   .main-menu-li:hover {
@@ -332,10 +334,10 @@ h2{
     letter-spacing: 0.06em;
     color: #ffffff;
     cursor: pointer;
-    transition: all 200ms;
     -webkit-transition: all 200ms;
     -moz-transition: all 200ms;
     -o-transition: all 200ms;
+    transition: all 200ms;
   }
 
   .main-block-btn:hover {
@@ -372,6 +374,7 @@ h2{
     -webkit-transition: all 200ms;
     -moz-transition: all 200ms;
     -o-transition: all 200ms;
+    transition: all 200ms;
   }
   .main-request-btn:hover {
     background-color: #e79814;

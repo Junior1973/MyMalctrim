@@ -21,7 +21,7 @@ Template Name: home
         <h2>Нас выбирают, потому что:</h2>
         <div class="hiking_block">
           <div class="hiking_img">
-            <img src="assets/img/Веселые.png" alt="cheerful" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Веселые.png" alt="cheerful" />
             <p>
               В наших походах Вам не нужно ни о чем беспокоиться, мы обо всем
               позаботимся за Вас
@@ -29,14 +29,14 @@ Template Name: home
           </div>
           <div class="hiking_point"></div>
           <div class="hiking_img">
-            <img src="assets/img/Безопасные.png" alt="Safe" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Безопасные.png" alt="Safe" />
             <p>
               Каждый наш поход проходит под чутким руководством специалистов
             </p>
           </div>
           <div class="hiking_point"></div>
           <div class="hiking_img">
-            <img src="assets/img/Вкусные.png" alt="Tasty" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Вкусные.png" alt="Tasty" />
             <p>
               У нас разнообразные виды отдыха и даже маршруты с шашлыком и дикой
               лесной баней
@@ -44,7 +44,7 @@ Template Name: home
           </div>
           <div class="hiking_point"></div>
           <div class="hiking_img">
-            <img src="assets/img/Круглогодичные.png" alt="season" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Круглогодичные.png" alt="season" />
             <p>
               В Крымских и Кавказских горах только проверенные тропы и самые
               красивые пейзажи
@@ -54,27 +54,27 @@ Template Name: home
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide hiking_slider">
-              <img src="assets/img/Веселые.png" alt="Веселые" />
+              <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Веселые.png" alt="Веселые" />
               <p>
                 В наших походах Вам не нужно ни о чем беспокоиться, мы обо всем
                 позаботимся за Вас
               </p>
             </div>
             <div class="swiper-slide hiking_slider">
-              <img src="assets/img/Безопасные.png" alt="Безопасные" />
+              <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Безопасные.png" alt="Безопасные" />
               <p>
                 Каждый наш поход проходит под чутким руководством специалистов
               </p>
             </div>
             <div class="swiper-slide hiking_slider">
-              <img src="assets/img/Вкусные.png" alt="Вкусные" />
+              <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Вкусные.png" alt="Вкусные" />
               <p>
                 У нас разнообразные виды отдыха и даже маршруты с шашлыком и
                 дикой лесной баней
               </p>
             </div>
             <div class="swiper-slide hiking_slider">
-              <img src="assets/img/Круглогодичные.png" alt="Круглогодичные" />
+              <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Круглогодичные.png" alt="Круглогодичные" />
               <p>
                 В Крымских и Кавказских горах только проверенные тропы и самые
                 красивые пейзажи
@@ -90,27 +90,27 @@ Template Name: home
         <h2>Только для Вас</h2>
         <div class="advantages_block">
           <div class="advantages_img">
-            <img src="assets/img/Vector.svg" alt="" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Vector.svg" alt="" />
             <p>Скидка новому клиенту</p>
           </div>
           <div class="advantages_img">
-            <img src="assets/img/Vector (1).svg" alt="" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Vector (1).svg" alt="" />
             <p>Индивидуальные туры</p>
           </div>
           <div class="advantages_img_none">
-            <img src="assets/img/Vector (2).svg" alt="" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Vector (2).svg" alt="" />
             <p>Быстрая обратная связь</p>
           </div>
           <div class="advantages_img">
-            <img src="assets/img/Vector (3).svg" alt="" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Vector (3).svg" alt="" />
             <p>Походы для любых возрастов</p>
           </div>
           <div class="advantages_img">
-            <img src="assets/img/Vector (4).svg" alt="" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Vector (4).svg" alt="" />
             <p>Лучшие фотографии</p>
           </div>
           <div class="advantages_img_none">
-            <img src="assets/img/Vector (5).svg" alt="" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Vector (5).svg" alt="" />
             <p>Психологические тренинги</p>
           </div>
         </div>
@@ -140,7 +140,7 @@ Template Name: home
           <div data-tab-content="1" class="caucasus active">
             <div class="caucasus_desc">
               <div class="caucasus_subtitle_img">
-                <img src="assets/img/svg-crimea.svg" alt="" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/svg-crimea.svg" alt="" />
               </div>
 
               <div class="caucasus_subtitle">
@@ -158,17 +158,17 @@ Template Name: home
             <div class="caucasus_img">
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_oneday_1.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_oneday_1.png"
                 alt=""
               />
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_oneday_2.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_oneday_2.png"
                 alt=""
               />
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_oneday_3.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_oneday_3.png"
                 alt=""
               />
             </div>
@@ -177,7 +177,7 @@ Template Name: home
           <div data-tab-content="2" class="caucasus">
             <div class="caucasus_desc">
               <div class="caucasus_subtitle_img">
-                <img src="assets/img/svg-crimea.svg" alt="" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/svg-crimea.svg" alt="" />
               </div>
 
               <div class="caucasus_subtitle">
@@ -192,17 +192,17 @@ Template Name: home
             <div class="caucasus_img">
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_night_1.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_night_1.png"
                 alt=""
               />
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_night_2.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_night_2.png"
                 alt=""
               />
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_night_3.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_night_3.png"
                 alt=""
               />
             </div>
@@ -211,7 +211,7 @@ Template Name: home
           <div data-tab-content="3" class="caucasus">
             <div class="caucasus_desc">
               <div class="caucasus_subtitle_img">
-                <img src="assets/img/svg-crimea.svg" alt="" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/svg-crimea.svg" alt="" />
               </div>
 
               <div class="caucasus_subtitle">
@@ -226,17 +226,17 @@ Template Name: home
             <div class="caucasus_img">
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_extream_1.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_extream_1.png"
                 alt=""
               />
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_extream_2.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_extream_2.png"
                 alt=""
               />
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_extream_3.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_extream_3.png"
                 alt=""
               />
             </div>
@@ -245,7 +245,7 @@ Template Name: home
           <div data-tab-content="4" class="caucasus">
             <div class="caucasus_desc">
               <div class="caucasus_subtitle_img">
-                <img src="assets/img/svg-crimea.svg" alt="" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/svg-crimea.svg" alt="" />
               </div>
               <div class="caucasus_subtitle">
                 Наша команда проводит семинары на природе, они для тех, кто
@@ -259,17 +259,17 @@ Template Name: home
             <div class="caucasus_img">
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_psycho_1.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_psycho_1.png"
                 alt=""
               />
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_psycho_2.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_psycho_2.png"
                 alt=""
               />
               <img
                 class="caucasus_img_elbrus"
-                src="assets/img/Rectangle_psycho_3.png"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/Rectangle_psycho_3.png"
                 alt=""
               />
             </div>
@@ -294,11 +294,11 @@ Template Name: home
         <div class="Individual_tours">
           <div class="Individual_tours_img_block">
             <div class="Individual_tours_img_top">
-              <img src="assets/img/Фото 1.png" alt="Фото из похода " />
-              <img src="assets/img/Фото 2.png" alt="Фото из похода " />
+              <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Фото 1.png" alt="Фото из похода " />
+              <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Фото 2.png" alt="Фото из похода " />
             </div>
             <div class="Individual_tours_img_bottom">
-              <img src="assets/img/3.png" alt="Фото из похода " />
+              <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/3.png" alt="Фото из похода " />
             </div>
           </div>
           <div class="Individual_tours_content">
@@ -312,7 +312,7 @@ Template Name: home
                 следующую минуту он может быть в походе.
               </div>
               <div class="Individual_tours_text_img">
-                <img src="assets/img/4.png" alt="Фото" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/4.png" alt="Фото" />
               </div>
               <div class="Individual_tours_text_bottom">
                 Так же Вы можете найти нас в Вконтакте или в Телеграме.
@@ -323,13 +323,13 @@ Template Name: home
                 <a href="http://vk.com/malstrim" title="#" rel="noopener" target="_blank"
                   ><img
                     class="Individual_tours_icon_vk"
-                    src="assets/img/vk.svg"
+                    src="<?php bloginfo( 'template_url'); ?> ./assets/img/vk.svg"
                     alt=""
                 /></a>
                 <a href="http://t.me/vie_est_vita" title="#" rel="noopener" target="_blank"
                   ><img
                     class="Individual_tours_icon_tl"
-                    src="assets/img/tl.svg"
+                    src="<?php bloginfo( 'template_url'); ?> ./assets/img/tl.svg"
                     alt=""
                 /></a>
                 <a
@@ -341,11 +341,11 @@ Template Name: home
               </div>
               <div class="Individual_tours_phones">
                 <div class="Individual_tours_phones_1">
-                  <img src="assets/img/tel.svg" alt="" />
+                  <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/tel.svg" alt="" />
                   <p>+7(978) 798-58-72</p>
                 </div>
                 <div class="Individual_tours_phones_1">
-                  <img src="assets/img/tel.svg" alt="" />
+                  <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/tel.svg" alt="" />
                   <p>+7(978) 529-35-87</p>
                 </div>
               </div>
@@ -390,23 +390,23 @@ Template Name: home
                   
                 </div>
                 <div class="caucasus_subtitle_img">
-                  <img src="assets/img/кавказ гора.png" alt="" />
+                  <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/кавказ гора.png" alt="" />
                 </div>
               </div>
               <div class="caucasus_img">
                 <img
                   class="caucasus_img_elbrus"
-                  src="assets/img/Эльбрус 1.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Эльбрус 1.png"
                   alt=""
                 />
                 <img
                   class="caucasus_img_elbrus"
-                  src="assets/img/Эльбрус 2.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Эльбрус 2.png"
                   alt=""
                 />
                 <img
                   class="caucasus_img_elbrus"
-                  src="assets/img/Эльбрус 3.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Эльбрус 3.png"
                   alt=""
                 />
               </div>
@@ -423,13 +423,13 @@ Template Name: home
                   энергетикой дикой природы?
                 </div>
                 <div class="caucasus_subtitle_img">
-                  <img src="assets/img/кавказ гора.png" alt="" />
+                  <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/кавказ гора.png" alt="" />
                 </div>
               </div>
               <div class="caucasus_img">
-                <img class="caucasus_img_elbrus" src="assets/img/архыз 1.png" alt="" />
-                <img class="caucasus_img_elbrus" src="assets/img/архыз 2.png" alt="" />
-                <img class="caucasus_img_elbrus" src="assets/img/архыз 3.png" alt="" />
+                <img class="caucasus_img_elbrus" src="<?php bloginfo( 'template_url'); ?> ./assets/img/архыз 1.png" alt="" />
+                <img class="caucasus_img_elbrus" src="<?php bloginfo( 'template_url'); ?> ./assets/img/архыз 2.png" alt="" />
+                <img class="caucasus_img_elbrus" src="<?php bloginfo( 'template_url'); ?> ./assets/img/архыз 3.png" alt="" />
               </div>
             </div>
 
@@ -445,23 +445,23 @@ Template Name: home
                   насыщенный поход.
                 </div>
                 <div class="caucasus_subtitle_img">
-                  <img src="assets/img/кавказ гора.png" alt="" />
+                  <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/кавказ гора.png" alt="" />
                 </div>
               </div>
               <div class="caucasus_img">
                 <img
                   class="caucasus_img_elbrus"
-                  src="assets/img/осетия 1.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/осетия 1.png"
                   alt=""
                 />
                 <img
                   class="caucasus_img_elbrus"
-                  src="assets/img/осетия 2.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/осетия 2.png"
                   alt=""
                 />
                 <img
                   class="caucasus_img_elbrus"
-                  src="assets/img/осетия 3.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/осетия 3.png"
                   alt=""
                 />
               </div>
@@ -479,23 +479,23 @@ Template Name: home
                   чудо.
                 </div>
                 <div class="caucasus_subtitle_img">
-                  <img src="assets/img/кавказ гора.png" alt="" />
+                  <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/кавказ гора.png" alt="" />
                 </div>
               </div>
               <div class="caucasus_img">
                 <img
                   class="caucasus_img_elbrus"
-                  src="assets/img/адыгея 1.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/адыгея 1.png"
                   alt=""
                 />
                 <img
                   class="caucasus_img_elbrus"
-                  src="assets/img/адыгея 2.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/адыгея 2.png"
                   alt=""
                 />
                 <img
                   class="caucasus_img_elbrus"
-                  src="assets/img/адыгея 3.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/адыгея 3.png"
                   alt=""
                 />
               </div>
@@ -522,28 +522,28 @@ Template Name: home
         <div class="photo_title">Наши лучшие фотографии</div>
         <div class="photo_img_block">
           <div class="photo_img">
-            <img class="photo_img_wrap" src="assets/img/Ледник Майли.png" alt="" />
+            <img class="photo_img_wrap" src="<?php bloginfo( 'template_url'); ?> ./assets/img/Ледник Майли.png" alt="" />
             <img
               class="photo_img_inner"
-              src="assets/img/Ледник Майли(текст).png"
+              src="<?php bloginfo( 'template_url'); ?> ./assets/img/Ледник Майли(текст).png"
               alt=""
             />
           </div>
           <div class="photo_img">
-            <img class="photo_img_wrap" src="assets/img/Осетия.png" alt="" />
-            <img class="photo_img_inner" src="assets/img/Осетия(текст).png" alt="" />
+            <img class="photo_img_wrap" src="<?php bloginfo( 'template_url'); ?> ./assets/img/Осетия.png" alt="" />
+            <img class="photo_img_inner" src="<?php bloginfo( 'template_url'); ?> ./assets/img/Осетия(текст).png" alt="" />
           </div>
         </div>
         <div class="photo_img_block">
           <div class="photo_img">
-            <img class="photo_img_wrap" src="assets/img/Крым.png" alt="" />
-            <img class="photo_img_inner" src="assets/img/Крым (текст).png" alt="" />
+            <img class="photo_img_wrap" src="<?php bloginfo( 'template_url'); ?> ./assets/img/Крым.png" alt="" />
+            <img class="photo_img_inner" src="<?php bloginfo( 'template_url'); ?> ./assets/img/Крым (текст).png" alt="" />
           </div>
           <div class="photo_img">
-            <img class="photo_img_wrap" src="assets/img/Архыз, река Псыш.png" alt="" />
+            <img class="photo_img_wrap" src="<?php bloginfo( 'template_url'); ?> ./assets/img/Архыз, река Псыш.png" alt="" />
             <img
               class="photo_img_inner"
-              src="assets/img/Архыз, река Псыш(тест).png"
+              src="<?php bloginfo( 'template_url'); ?> ./assets/img/Архыз, река Псыш(тест).png"
               alt=""
             />
           </div>
@@ -552,20 +552,20 @@ Template Name: home
           <div class="photo_img">
             <img
               class="photo_img_wrap"
-              src="assets/img/Осетия, на Крестах.png"
+              src="<?php bloginfo( 'template_url'); ?> ./assets/img/Осетия, на Крестах.png"
               alt=""
             />
             <img
               class="photo_img_inner"
-              src="assets/img/Осетия, на Крестах(текст).png"
+              src="<?php bloginfo( 'template_url'); ?> ./assets/img/Осетия, на Крестах(текст).png"
               alt=""
             />
           </div>
           <div class="photo_img">
-            <img class="photo_img_wrap" src="assets/img/Архыз, Орленок.png" alt="" />
+            <img class="photo_img_wrap" src="<?php bloginfo( 'template_url'); ?> ./assets/img/Архыз, Орленок.png" alt="" />
             <img
               class="photo_img_inner"
-              src="assets/img/Архыз, Орленок(текст).png"
+              src="<?php bloginfo( 'template_url'); ?> ./assets/img/Архыз, Орленок(текст).png"
               alt=""
             />
           </div>
@@ -579,12 +579,12 @@ Template Name: home
               <div class="photo_img_gallery">
                 <img
                   class="photo_img_wrap_gallery"
-                  src="assets/img/Ледник Майли.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Ледник Майли.png"
                   alt=""
                 />
                 <img
                   class="photo_img_inner_gallery"
-                  src="assets/img/Ледник Майли(текст).png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Ледник Майли(текст).png"
                   alt=""
                 />
               </div>
@@ -593,36 +593,22 @@ Template Name: home
               <div class="photo_img_gallery">
                 <img
                   class="photo_img_wrap_gallery"
-                  src="assets/img/Осетия.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Осетия.png"
                   alt=""
                 />
                 <img
                   class="photo_img_inner_gallery"
-                  src="assets/img/Осетия(текст).png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Осетия(текст).png"
                   alt=""
                 />
               </div>
             </div>
             <div class="swiper-slide photo_img_gallery_clide">
               <div class="photo_img_gallery">
-                <img class="photo_img_wrap_gallery" src="assets/img/Крым.png" alt="" />
+                <img class="photo_img_wrap_gallery" src="<?php bloginfo( 'template_url'); ?> ./assets/img/Крым.png" alt="" />
                 <img
                   class="photo_img_inner_gallery"
-                  src="assets/img/Крым (текст).png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="swiper-slide photo_img_gallery_clide">
-              <div class="photo_img_gallery">
-                <img
-                  class="photo_img_wrap_gallery"
-                  src="assets/img/Архыз, река Псыш.png"
-                  alt=""
-                />
-                <img
-                  class="photo_img_inner_gallery"
-                  src="assets/img/Архыз, река Псыш(тест).png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Крым (текст).png"
                   alt=""
                 />
               </div>
@@ -631,12 +617,12 @@ Template Name: home
               <div class="photo_img_gallery">
                 <img
                   class="photo_img_wrap_gallery"
-                  src="assets/img/Осетия, на Крестах.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Архыз, река Псыш.png"
                   alt=""
                 />
                 <img
                   class="photo_img_inner_gallery"
-                  src="assets/img/Осетия, на Крестах(текст).png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Архыз, река Псыш(тест).png"
                   alt=""
                 />
               </div>
@@ -645,12 +631,26 @@ Template Name: home
               <div class="photo_img_gallery">
                 <img
                   class="photo_img_wrap_gallery"
-                  src="assets/img/Архыз, Орленок.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Осетия, на Крестах.png"
                   alt=""
                 />
                 <img
                   class="photo_img_inner_gallery"
-                  src="assets/img/Архыз, Орленок(текст).png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Осетия, на Крестах(текст).png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="swiper-slide photo_img_gallery_clide">
+              <div class="photo_img_gallery">
+                <img
+                  class="photo_img_wrap_gallery"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Архыз, Орленок.png"
+                  alt=""
+                />
+                <img
+                  class="photo_img_inner_gallery"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/Архыз, Орленок(текст).png"
                   alt=""
                 />
               </div>
@@ -670,7 +670,7 @@ Template Name: home
             >vk.com/malstrim</a
           >
           <a href="http://vk.com/malstrim" title="#" rel="noopener" target="_blank"
-            ><img class="photo_subtitle_link_vk" src="assets/img/VK white.svg" alt=""
+            ><img class="photo_subtitle_link_vk" src="<?php bloginfo( 'template_url'); ?> ./assets/img/VK white.svg" alt=""
           /></a>
         </div>
       </div>
@@ -682,13 +682,13 @@ Template Name: home
       <h5>Отзывы</h5>
       <div class="buttons">
         <button class="controls" id="previous">
-          <img src="assets/img/Кнопка лево.png" alt="previou" />
+          <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Кнопка лево.png" alt="previou" />
         </button>
         <button class="controls" id="pause">
-          <img src="assets/img/Кнопка.png" alt="pause" />
+          <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Кнопка.png" alt="pause" />
         </button>
         <button class="controls" id="next">
-          <img src="assets/img/Кнопка право.png" alt="next" />
+          <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Кнопка право.png" alt="next" />
         </button>
       </div>
 
@@ -697,7 +697,7 @@ Template Name: home
           <li class="slide showing">
             <div class="review">
               <div class="avatar">
-                <img src="assets/img/ava1.png" alt="r1" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/ava1.png" alt="r1" />
               </div>
               <div>
                 <p class="text-review">
@@ -715,7 +715,7 @@ Template Name: home
           <li class="slide">
             <div class="review">
               <div class="avatar">
-                <img src="assets/img/ava2.png" alt="r2" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/ava2.png" alt="r2" />
               </div>
               <div>
                 <p class="text-review">
@@ -733,7 +733,7 @@ Template Name: home
           <li class="slide">
             <div class="review">
               <div class="avatar">
-                <img src="assets/img/ava3.png" alt="r3" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/ava3.png" alt="r3" />
               </div>
               <div>
                 <p class="text-review">
@@ -750,7 +750,7 @@ Template Name: home
           <li class="slide">
             <div class="review">
               <div class="avatar">
-                <img src="assets/img/ava4.png" alt="r4" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/ava4.png" alt="r4" />
               </div>
               <div>
                 <p class="text-review">
@@ -767,7 +767,7 @@ Template Name: home
       <script src="./script.js"></script>
       <div class="mobil">
         <p>посмотреть можно здесь</p>
-        <a href="#"><img src="assets/img/VK_logo.jpg" alt="VK" class="logo" /></a>
+        <a href="#"><img src="<?php bloginfo( 'template_url'); ?> ./assets/img/VK_logo.jpg" alt="VK" class="logo" /></a>
       </div>
 
       <div class="photo_subtitle photo_subtitle_new">
@@ -782,13 +782,13 @@ Template Name: home
           >vk.com/malstrim</a
         >
         <a href="http://vk.com/malstrim" title="#"  rel="noopener" target="_blank"
-          ><img class="photo_subtitle_link_vk" src="assets/img/VK white.svg" alt=""
+          ><img class="photo_subtitle_link_vk" src="<?php bloginfo( 'template_url'); ?> ./assets/img/VK white.svg" alt=""
         /></a>
       </div>
 
       <!-- <div class="text">
         <p>Посмотреть больше отзывов Вы можете на нашей странице ВКонтакте</p>
-        <a href="#"><img src="assets/img/VK_logo.jpg" alt="VK" class="logo" /></a>
+        <a href="#"><img src="<?php bloginfo( 'template_url'); ?> ./assets/img/VK_logo.jpg" alt="VK" class="logo" /></a>
       </div> -->
       <div class="footer_svg"></div>
     </section>

@@ -4,7 +4,7 @@
 </head>
 
   <body>
-    
+
   <header class="header">
       <div class="container">
         <div class="header_burger">
@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="header_block">
-          <a href="index.html"><img src="assets/img/logo.png" alt="logo" /></a>
+          <a href="index.html"><img src="<?php bloginfo( 'template_url'); ?> ./assets/img/logo.png" alt="logo" /></a>
           <nav class="nav">
             <ul>
               <li><a href="index.html">Главная</a></li>
@@ -25,7 +25,7 @@
           <div class="menu">
             <img
               class="menu_img"
-              src="assets/img/+.svg"
+              src="<?php bloginfo( 'template_url'); ?> ./assets/img/+.svg"
               onclick="menu_img_close()"
               alt=""
             />
@@ -41,18 +41,18 @@
               Заявка
             </button>
             <div class="menu_tel">
-              <img src="assets/img/tube  white.svg" alt="telephone" />
+              <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/tube  white.svg" alt="telephone" />
               <p>+7(978) 798-58-72</p>
             </div>
             <div class="menu_tel">
-              <img src="assets/img/tube  white.svg" alt="telephone" />
+              <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/tube  white.svg" alt="telephone" />
               <p>+7(978) 798-58-72</p>
             </div>
             <div class="menu_icon">
-              <a href="http://vk.com/malstrim" rel="noopener" target="_blank"><img class="menu_icon_vk" src="assets/img/VK1.svg" alt="vk"
+              <a href="http://vk.com/malstrim" rel="noopener" target="_blank"><img class="menu_icon_vk" src="<?php bloginfo( 'template_url'); ?> ./assets/img/VK1.svg" alt="vk"
               /></a>
               <a href="http://t.me/vie_est_vita" rel="noopener" target="_blank"
-                ><img class="menu_icon_tl" src="assets/img/TЛ.svg" alt="telegram"
+                ><img class="menu_icon_tl" src="<?php bloginfo( 'template_url'); ?> ./assets/img/TЛ.svg" alt="telegram"
               /></a>
             </div>
           </div>
@@ -61,16 +61,16 @@
               class="header_icon_telephone"
               onmouseover="icon_over()"
               onmouseout="icon_out()"
-              src="assets/img/Трубка.svg"
+              src="<?php bloginfo( 'template_url'); ?> ./assets/img/Трубка.svg"
               alt="telephone"
             />
             <a href="http://vk.com/malstrim" rel="noopener" target="_blank"
-              ><img class="header_icon_vk" src="assets/img/VK1.svg" alt="vk"
+              ><img class="header_icon_vk" src="<?php bloginfo( 'template_url'); ?> ./assets/img/VK1.svg" alt="vk"
             /></a>
             <a href="http://t.me/vie_est_vita" rel="noopener" target="_blank"
               ><img
                 class="header_icon_telegram"
-                src="assets/img/TЛ.svg"
+                src="<?php bloginfo( 'template_url'); ?> ./assets/img/TЛ.svg"
                 alt="telegram"
             /></a>
           </div>
@@ -83,11 +83,11 @@
           <div class="modal_telephone_wrap">
             <div class="modal_telephone">
               <div class="modal_telephone_1">
-                <img src="assets/img/tel.svg" alt="" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/tel.svg" alt="" />
                 <p>+7(978) 798-58-72</p>
               </div>
               <div class="modal_telephone_1">
-                <img src="assets/img/tel.svg" alt="" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/tel.svg" alt="" />
                 <p>+7(978) 529-35-87</p>
               </div>
             </div>
@@ -100,7 +100,7 @@
               <div class="modal_img_1">
                 <img
                   class="modal_window_img"
-                  src="assets/img/модальное окно 2.png"
+                  src="<?php bloginfo( 'template_url'); ?> ./assets/img/модальное окно 2.png"
                   alt=""
                 />
                 <div class="modal_form_p">
@@ -109,13 +109,13 @@
               </div>
 
               <!-- <div class="modal_img_2">
-                <img src="assets/img/+.svg" onclick="show()"alt="">
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/+.svg" onclick="show()"alt="">
               </div> -->
 
               <div class="modal_form">
                 <form action="">
                   <div class="modal_img_2">
-                    <img src="assets/img/+.svg" onclick="show()" alt="" />
+                    <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/+.svg" onclick="show()" alt="" />
                   </div>
 
                   <p class="modal_form_text">
@@ -123,7 +123,7 @@
                     поможем подобрать поход
                   </p>
                   <div class="modal_application">
-                    <img src="assets/img/туристМод.svg" alt="турист" />
+                    <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/туристМод.svg" alt="турист" />
                     <div class="modal_application_label">
                       <p><label for="">Ваше имя:</label></p>
                       <input
@@ -135,7 +135,7 @@
                     </div>
                   </div>
                   <div class="modal_application">
-                    <img src="assets/img/телефон.svg" alt="телефон" />
+                    <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/телефон.svg" alt="телефон" />
                     <div class="modal_application_label">
                       <p><label for="">Телефон:</label></p>
                       <input
@@ -175,15 +175,15 @@
             </div>
             <div class="header_block_description">
               <div class="header_block_img">
-                <img src="assets/img/Карта.png" alt="Карта" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Карта.png" alt="Карта" />
                 <p>Маршруты по всему Крыму</p>
               </div>
               <div class="header_block_img">
-                <img src="assets/img/Турист.png" alt="Карта" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Турист.png" alt="Карта" />
                 <p>Пешие туры на Кавказ</p>
               </div>
               <div class="header_block_img">
-                <img src="assets/img/Гора.png" alt="Карта" />
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Гора.png" alt="Карта" />
                 <p>Восхождение на Эльбрус</p>
               </div>
             </div>

@@ -4,7 +4,7 @@
         <!-- Логотип -->
         <div class="footer_div">
           <div class="img_logo">
-            <a href="index.html"><img src="assets/img/logo.png" alt="logo" /></a>
+            <a href="index.html"><img src="<?php bloginfo( 'template_url'); ?> ./assets/img/logo.png" alt="logo" /></a>
           </div>
 
           <p class="footer_p" >
@@ -13,7 +13,7 @@
           </p>
           <div class="img_decor" >
             <img
-              src="assets/img/decor.png"
+              src="<?php bloginfo( 'template_url'); ?> ./assets/img/decor.png"
               alt="logo"
             />
           </div>
@@ -50,11 +50,11 @@
         <div class="footer_div">
           <h3 class="footer_h3_Cont">Контакты</h3>
           <div class="footer_div_fone">
-            <img src="assets/img/phone_on.png" alt="fone" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/phone_on.png" alt="fone" />
             <a class="footer_a_fone" href="#">+7(978)798-58-72</a>
           </div>
           <div class="footer_div_fone_">
-            <img src="assets/img/phone_on.png" alt="fone" />
+            <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/phone_on.png" alt="fone" />
             <a class="footer_a_fone" href="#">+7(978)529-35-87</a>
           </div>
           <div>
@@ -71,7 +71,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="assets/img/VK0.png" alt="VK"/>
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/VK0.png" alt="VK"/>
               </a>
             </div>
             <div class="footer_div_socseti_Telegram">
@@ -80,7 +80,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="assets/img/Telegram.png" alt="Telegram"/>
+                <img src="<?php bloginfo( 'template_url'); ?> ./assets/img/Telegram.png" alt="Telegram"/>
               </a>
             </div>
           </div>

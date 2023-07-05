@@ -131,7 +131,7 @@ h2{
   }
 
   .n_link.active-link1:after {
-    content: url(./img/svg_check-mark.svg);
+    content: url(/assets/img/svg_check-mark.svg);
     position: relative;
     left: 90px;
     top: -25px;
@@ -206,7 +206,7 @@ h2{
     border: none;
     background-color: #fff;
     padding-right: 20px;
-    background-image: url(./img/drop.svg);
+    background-image: url(/assets/img/drop.svg);
     background-repeat: no-repeat;
     background-position: right;
   }

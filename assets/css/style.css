@@ -31,7 +31,7 @@ h2 {
 .header {
   position: relative;
   width: 100%;
-  background-image: url("../img/Фон.png");
+  background-image: url("/assets/img/Фон.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -457,7 +457,7 @@ svg {
   display: none;
 }
 .hiking_advantages {
-  background-image: url(img/sect-benefits.jpg);
+  background-image: url(/assets/img/sect-benefits.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -661,7 +661,7 @@ svg {
   position: relative;
   width: 100%;
   height: 39px;
-  background-image: url("img/кавказ\ фон\ 1.png");
+  background-image: url("/assets/img/кавказ\ фон\ 1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -792,7 +792,7 @@ svg {
   position: relative;
   width: 100%;
   height: 40px;
-  background-image: url("img/кавказ\ фон\ 2.png");
+  background-image: url("/assets/img/кавказ\ фон\ 2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1016,7 +1016,7 @@ svg {
 .footer_svg {
   width: 100%;
   height: 20px;
-  background-image: url("../img/фон\ 6.png");
+  background-image: url("/assets/img/фон\ 6.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

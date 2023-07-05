@@ -16,8 +16,8 @@
           <a href="index.html"><img src="<?php bloginfo( 'template_url'); ?> ./assets/img/logo.png" alt="logo" /></a>
           <nav class="nav">
             <ul>
-              <li><a href="index.html">Главная</a></li>
-              <li><a href="schedule.html">Расписание</a></li>
+              <li><a href="http://localhost/wordpress_mymalstrim/home/">Главная</a></li>
+              <li><a href="http://localhost/wordpress_mymalstrim/schedule/">Расписание</a></li>
               <li><a href="reminder.html">Памятка туристу</a></li>
               <li><a href="about.html">О нас</a></li>
             </ul>
@@ -32,9 +32,7 @@
             <ul>
               <li class="menu_link"><a href="index.html">Главная</a></li>
               <li class="menu_link"><a href="schedule.html">Расписание</a></li>
-              <li class="menu_link">
-                <a href="reminder.html">Памятка туристу</a>
-              </li>
+              <li class="menu_link"><a href="reminder.html">Памятка туристу</a></li>
               <li class="menu_link"><a href="about.html">О нас</a></li>
             </ul>
             <button class="menu_btn" type="submit" onclick="show()">

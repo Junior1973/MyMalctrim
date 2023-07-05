@@ -9,7 +9,7 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'route_details_media', get_template_directory_uri(). '/assets/css/route_details_media.css' );
 	wp_enqueue_style( 'route_details', get_template_directory_uri(). '/assets/css/route_details.css' );
 	wp_enqueue_style( 'schedule', get_template_directory_uri(). '/assets/css/schedule.css' );
-	wp_enqueue_style( 'style', get_template_directory_uri(). '/assets/css/style.css' );
+	wp_enqueue_style( 'style', get_template_directory_uri(). '/assets/css/style.css' ); 
 
 	wp_deregister_script( 'jquery' );
 	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js');
@@ -21,7 +21,7 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_script( 'route_details', get_template_directory_uri() . 'assets/js/route_details.js');
 	wp_enqueue_script( 'schedule', get_template_directory_uri() . 'assets/js/schedule.js');
 	wp_enqueue_script( 'script', get_template_directory_uri() . 'assets/js/script.js');
-
+	
 
 });
 
